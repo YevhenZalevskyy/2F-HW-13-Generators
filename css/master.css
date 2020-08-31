@@ -14,10 +14,6 @@ h2 {
   padding-bottom: 20px;
 }
 
-h3 {
-  font-size: 17px;
-}
-
 h3, p {
   color: rgb(69, 41, 209);
 }
@@ -50,5 +46,5 @@ h3, p {
 
 #text {
   min-width: 94px;
-  font-size: 14px;
+  /* font-size: 14px; */
 }
