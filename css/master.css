@@ -1,0 +1,42 @@
+.key > h1 {
+  pointer-events: none;
+}
+
+body {
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 17px;
+}
+
+h3, p {
+  color: rgb(69, 41, 209);
+}
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.key {
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid;
+  border-radius: 5px;
+  min-width: 30px;
+  text-align: center;
+}
+
+#text {
+  min-width: 94px;
+  font-size: 14px;
+}
