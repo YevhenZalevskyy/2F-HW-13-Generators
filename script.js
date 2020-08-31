@@ -10,5 +10,9 @@ function* createIdGenerator() {
   }
 }
 
-console.log(idGenerator.next().value);
-console.log(idGenerator.next().value);
+const getId = document.getElementById('id')
+const idNum = document.getElementById('num')
+
+getId.addEventListener('click', function () {
+  idNum.innerText = idGenerator.next().value
+})
